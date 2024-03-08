@@ -35,6 +35,7 @@ namespace Website_SOLID
                     break;
                 case ConsoleKey.D2: // Website Part 2 (File)
                     // Path to File // Change To Other Path if git cloned // If there's no file at that path, then it creates a new one
+                    //string path = @"C:\Users\Tue\source\repos\Website SOLID\WriteFile.txt"; 
                     string path = @"C:\Users\Tue\source\repos\Website SOLID\NewWriteFile.txt"; 
                     printerType = new FilePrinter(path);
                     break;
